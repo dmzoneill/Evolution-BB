@@ -1,0 +1,33 @@
+Xara 3D
+Version : 2.1f
+Background (HSV) : 0 0 100
+Text colour (HSV) : 208 23 100
+Background (HSV0) : 0 0 1000
+Text colour (HSV0) : 2080 230 1000
+Light 1 (HSV) : 206 28 81 46 76
+Light 1 (HSV0) : 2060 280 810 46 76
+Light 2 (HSV) : 232 53 56 -37 -48
+Light 2 (HSV0) : 2320 530 560 -37 -48
+Light 3 (HSV) : 0 0 56 31 -47
+Light 3 (HSV0) : 0 0 560 31 -47
+Observer : 50331648 0 -14
+Font name : Mead Bold
+Font attributes : 150 0 0
+Outline : 0 50
+Justify : 1
+Size : 14
+Line spacing : 80
+Character spacing : 150
+Gloss : 1
+Extrude : 25 1 0 1
+Bevel : 5 200
+Animation : 24 0 1
+Frames per second : 10
+Axis : 0
+Animated : 0
+Text animation : 1
+Light animation : 0
+Text texture : 1 2 D:\dump\dev\evobb-dev\images\intersection.gif
+Texture : 0
+Text : Graphics
+Text (UNICODE) : Graphics

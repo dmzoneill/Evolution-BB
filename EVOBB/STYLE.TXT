@@ -1,0 +1,78 @@
+<?php $bgcolor = "fffff";
+        		$text = "000000";
+        		$link = "#23a0c6";
+        		$vlink = "#23a0c6";
+        		$alink = "#0582a8";
+        		$fontface = " Verdana, Arial, Helvetica, sans-serif";
+        		$fontsize= "2";
+        		$tablewidth = "98%";
+        		$tbl1color = "efefef";
+        		$tbl2color = "dee3e7";
+        		$tblborder= "0";
+        		$tblheader = "oc71a3";
+        		$postnew = "images/buttons/post_topic.gif";
+        		$postreply = "images/buttons/post_reply.gif";
+        		$postreplyclosed = "images/buttons/topic_closed.gif";
+        		$header = "images/evobb_logo.gif";
+        		$css = "font { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-style: normal; color: #000000; cursor: default; }
+a { text-decoration: none;  
+}
+a:link { color: #000000; }
+a:hover {  text-decoration: underline; color : #C23030; }
+
+/* Form elements */
+select {
+background : #dee3e7;
+font-family : Verdana, Arial, Helvetica, sans-serif;
+font-size : 11px;
+font-weight : normal;
+border-color : #000000 1px;
+font-color : #000000;
+}
+
+/* The text input fields background colour */
+input.post, textarea.post, select {
+background : #dee3e7;
+border-color : #000000 1px;
+font-color : #000000;
+}
+
+input { text-indent : 2px; }
+
+/* The buttons used for bbCode styling in message post */
+input.button {
+background : #EFEFEF;
+color : #000000;
+font-family : Verdana, Arial, Helvetica, sans-serif;
+font-size : 11px;
+}
+
+/* make the scrollbar abit more fancier */
+BODY { 
+scrollbar-face-color: #dee3e7; scrollbar-highlight-color: #f3f3f3; scrollbar-shadow-color: #f3f3f3; scrollbar-arrow-color: #000000; scrollbar-base-color: #6d8693; scrollbar-dark-shadow-color: white; scrollbar-3d-light-color: #9BAAC1 ; }
+
+ .InputBox	{
+ 		  BORDER-RIGHT: white 1px inset;
+ 		  BORDER-TOP: white 1px inset;
+ 		  BACKGROUND-ATTACHMENT: fixed;
+ 		  BORDER-LEFT: white 1px inset;
+ 		  BORDER-BOTTOM: white 1px inset;
+ 		  FONT-FAMILY: Verdana;
+ 		}
+
+ .InputButton	{
+      		  BORDER-RIGHT: white 1px outset;
+		  BORDER-TOP: white 1px outset;
+		  BORDER-LEFT: white 1px outset;
+		  BORDER-BOTTOM: white 1px outset;
+ 		  FONT-FAMILY: Verdana;
+ 		  FONT-WEIGHT: bolder;
+ 		  COLOR: #FFFFFF;
+ 		  BACKGROUND-COLOR: #37260E;
+  		}
+
+";
+        		$forumname = "Evoloution BB";
+        		$headerfontcolor = "#FB8B00";
+        		$postpoll = "images/buttons/post_poll.gif";
+			$table_outline = "black"; ?>

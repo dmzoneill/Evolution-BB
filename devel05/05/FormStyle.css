@@ -1,0 +1,44 @@
+.FormInput {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #000000;
+	text-decoration: none;
+	border: 1px solid #999999;
+	cursor: default;
+	height: 15px;
+	width: 90px;
+	background-image: url(images/inputbg.gif);
+
+}
+
+.FormLoginTable {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: none;
+	color: #000000;
+	text-decoration: none;
+	cursor: default;
+
+
+
+}
+
+.FormLoginButton {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+	border: 1px dashed #336699;
+	background-image: url(images/buttonbg.gif);
+
+}

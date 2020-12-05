@@ -1,0 +1,58 @@
+INSERT INTO evo_filter (auto, filtered, withwhat) VALUES (1, 'fuck', 'f%2A%2A%2A');¬
+INSERT INTO evo_filter (auto, filtered, withwhat) VALUES (2, 'shit', 's%2A%2A%2A');¬
+INSERT INTO evo_filter (auto, filtered, withwhat) VALUES (3, 'bitch', 'b%2A%2A%2A%2A');¬
+INSERT INTO evo_filter (auto, filtered, withwhat) VALUES (4, 'ass', 'arse');¬
+INSERT INTO evo_emotions (id, smile, smileurl, smileborder, smilealt, smilewidth, smileheight, smileact) VALUES (1, ';\\)', 'images/smiles/wink.gif', '0', 'wink', '100%', '100%', '1');¬
+INSERT INTO evo_emotions (id, smile, smileurl, smileborder, smilealt, smilewidth, smileheight, smileact) VALUES (2, ':D', 'images/smiles/biggrin.gif', '0', 'Big Grin', '100%', '100%', '1');¬
+INSERT INTO evo_emotions (id, smile, smileurl, smileborder, smilealt, smilewidth, smileheight, smileact) VALUES (3, ':confused:', 'images/smiles/confused.gif', '0', 'Confused', '100%', '100%', '1');¬
+INSERT INTO evo_emotions (id, smile, smileurl, smileborder, smilealt, smilewidth, smileheight, smileact) VALUES (4, ':cool:', 'images/smiles/cool.gif', '0', 'cool', '100%', '100%', '1');¬
+INSERT INTO evo_emotions (id, smile, smileurl, smileborder, smilealt, smilewidth, smileheight, smileact) VALUES (5, ':\\(', 'images/smiles/sad.gif', '0', 'sad', '100%', '100%', '1');¬
+INSERT INTO evo_emotions (id, smile, smileurl, smileborder, smilealt, smilewidth, smileheight, smileact) VALUES (6, ':shocked:', 'images/smiles/shocked.gif', '0', 'shocked', '100%', '100%', '1');¬
+INSERT INTO evo_emotions (id, smile, smileurl, smileborder, smilealt, smilewidth, smileheight, smileact) VALUES (7, ':\\)', 'images/smiles/smile.gif', '0', 'happy', '100%', '100%', '1');¬
+INSERT INTO evo_emotions (id, smile, smileurl, smileborder, smilealt, smilewidth, smileheight, smileact) VALUES (8, ':angry:', 'images/smiles/angry.gif', '0', 'angry', '100%', '100%', '1');¬
+INSERT INTO evo_hmf (id, header, meta, footer) VALUES (1, '', '', '');¬
+INSERT INTO evo_news (id, news) VALUES (1, '');¬
+INSERT INTO evo_stars (d1, d2, d3, d4, d5, d6) VALUES (15, 25, 105, 255, 505, 1005);¬
+INSERT INTO evo_themes (ID, NAME, USED, BGCOLOR, TEXT, LINK, VLINK, ALINK, FONT_FACE, FONT_SIZE, TABLE_WIDTH, TABLE1_COLOR, TABLE2_COLOR, TABLE_BORDER, TABLE_HEADER, POST_NEW, POST_REPLY, POST_REPLYCLOSED, HEADER, CSS, forumname, headerfontcolor, postpoll, tableoutline, viewtemplate, buttontheme, forumtemplate) VALUES (1, 'EvoBB', 1, '#FAFAFA', '#000000', '#23a0c6', '#000000', '#23a0c6', 'Verdana, Arial, Helvetica, sans-serif', 1, '75%', '#F1F1F1', '#F5F5F5', 0, '#E0E0E0', 'images/post_topic.gif', 'images/post_reply.gif', 'images/topic_closed.gif', 'images/theevologo.gif', 'a { text-decoration: none;  \r\n}\r\n\r\n\r\n/* Form elements */\r\nselect {\r\nbackground : #dee3e7;\r\nfont-family : Verdana, Arial, Helvetica, sans-serif;\r\nfont-size : 11px;\r\nfont-weight : normal;\r\nborder-color : #000000 1px;\r\nfont-color : #000000;\r\n}\r\n\r\n/* The text input fields background colour */\r\n\r\ninput.post, textarea.post, select {\r\nbackground : #dee3e7;\r\nborder-color : #000000 1px;\r\nfont-color : #000000;\r\n}\r\n\r\ninput { text-indent : 2px; }\r\n\r\n/* The buttons used for bbCode styling in message post */\r\n\r\ninput.button {\r\nbackground : #EFEFEF;\r\ncolor : #000000;\r\nfont-family : Verdana, Arial, Helvetica, sans-serif;\r\nfont-size : 11px;\r\nborder-color : #000000 1px;\r\n\r\n}\r\n\r\n/* make the scrollbar abit more fancier */\r\nBODY { \r\nscrollbar-face-color: #dee3e7; scrollbar-highlight-color: #f3f3f3; scrollbar-shadow-color: #f3f3f3; scrollbar-arrow-color: #000000; scrollbar-base-color: #6d8693; scrollbar-dark-shadow-color: white; scrollbar-3d-light-color: #9BAAC1 ; }\r\n\r\n .InputBox {\r\n     BORDER-RIGHT: white 1px inset;\r\n     BORDER-TOP: white 1px inset;\r\n     BACKGROUND-ATTACHMENT: fixed;\r\n     BORDER-LEFT: white 1px inset;\r\n     BORDER-BOTTOM: white 1px inset;\r\n     FONT-FAMILY: Verdana;\r\n   }\r\n\r\n .InputButton {\r\n          BORDER-RIGHT: white 1px outset;\r\n    BORDER-TOP: white 1px outset;\r\n    BORDER-LEFT: white 1px outset;\r\n    BORDER-BOTTOM: white 1px outset;\r\n     FONT-FAMILY: Verdana;\r\n     FONT-WEIGHT: bolder;\r\n     COLOR: #FFFFFF;\r\n     BACKGROUND-COLOR: #37260E;\r\n    }', 'EvoBB Forums', '#FB8B00', 'images/post_poll.gif', '#BCBCBC', 'default', 'EvoBB', 'withnews');¬
+INSERT INTO evo_usergroups (auto, name, comments, members) VALUES (0, 'Administrators', 'Highest ranking members of the board.', '0|1');¬
+INSERT INTO evo_titles (id, d1, d2, d3, d4, d5, d6, admin, coadmin, moderator) VALUES (1, 'EvoBB Newbie!', 'EvoBB User!', 'EvoBB Regular!', 'EvoBB Regular!', 'EvoBB Veteran!', 'EvoBB Veteran!', 'Slacker aka Admin', 'Co-Slacker', 'Moderator');¬
+INSERT INTO evo_bbcode (id, postin, postout, startend, javascript, activation) VALUES (1, ':hr:', '<hr>', '1', '\r\nfunction hr(){\r\ndocument.evobb.post.value+=\":hr:\";\r\n}', '1');¬
+INSERT INTO evo_bbcode (id, postin, postout, startend, javascript, activation) VALUES (2, ':h1:', '<h1>', '1', 'function h(){\r\nvar imgsrc = prompt(\"Enter your message:\", \"Hello world\");\r\nvar hsize = prompt(\"Enter your heading size 1-6 :\", \"2\");\r\ndocument.evobb.post.value+=\":h\" + hsize + \":\" + imgsrc + \":/h\" + hsize + \":\";}\r\n</script>', '1');¬
+INSERT INTO evo_bbcode (id, postin, postout, startend, javascript, activation) VALUES (3, ':h2:', '<h2>', '1', '', '1');¬
+INSERT INTO evo_bbcode (id, postin, postout, startend, javascript, activation) VALUES (4, ':h3:', '<h3>', '1', '', '1');¬
+INSERT INTO evo_bbcode (id, postin, postout, startend, javascript, activation) VALUES (5, ':h4:', '<h4>', '1', '', '1');¬
+INSERT INTO evo_bbcode (id, postin, postout, startend, javascript, activation) VALUES (6, ':h5:', '<h5>', '1', '', '1');¬
+INSERT INTO evo_bbcode (id, postin, postout, startend, javascript, activation) VALUES (7, ':h6:', '<h6>', '1', '', '1');¬
+INSERT INTO evo_bbcode (id, postin, postout, startend, javascript, activation) VALUES (8, ':/h1:', '</h1>', '0', '', '1');¬
+INSERT INTO evo_bbcode (id, postin, postout, startend, javascript, activation) VALUES (9, ':/h2:', '</h2>', '0', '', '1');¬
+INSERT INTO evo_bbcode (id, postin, postout, startend, javascript, activation) VALUES (10, ':/h3:', '</h3>', '0', '', '1');¬
+INSERT INTO evo_bbcode (id, postin, postout, startend, javascript, activation) VALUES (11, ':/h4:', '</h4>', '0', '', '1');¬
+INSERT INTO evo_bbcode (id, postin, postout, startend, javascript, activation) VALUES (12, ':/h5:', '</h5>', '0', '', '1');¬
+INSERT INTO evo_bbcode (id, postin, postout, startend, javascript, activation) VALUES (13, ':/h6:', '</h6>', '0', '', '1');¬
+INSERT INTO evo_bbcode (id, postin, postout, startend, javascript, activation) VALUES (14, ':b:', '<b>', '1', 'function bold(){\r\nvar imgsrc = prompt(\"Enter your message:\", \"hello world\")\r\ndocument.evobb.post.value+=\":b:\" + imgsrc +\":/b:\";\r\n}\r\n', '1');¬
+INSERT INTO evo_bbcode (id, postin, postout, startend, javascript, activation) VALUES (15, ':/b:', '</b>', '0', '', '1');¬
+INSERT INTO evo_bbcode (id, postin, postout, startend, javascript, activation) VALUES (16, ':u:', '<u>', '1', 'function underline(){\r\nvar imgsrc = prompt(\"Enter your message:\", \"Hello world\")\r\ndocument.evobb.post.value+=\":u:\" + imgsrc +\":/u:\";\r\n}', '1');¬
+INSERT INTO evo_bbcode (id, postin, postout, startend, javascript, activation) VALUES (17, ':/u:', '</u>', '0', '', '1');¬
+INSERT INTO evo_bbcode (id, postin, postout, startend, javascript, activation) VALUES (18, ':i:', '<i>', '', 'function italic(){\r\nvar imgsrc = prompt(\"Enter your message:\", \"Hello World\")\r\ndocument.evobb.post.value+=\":i:\" + imgsrc +\":/i:\";\r\n}', '1');¬
+INSERT INTO evo_bbcode (id, postin, postout, startend, javascript, activation) VALUES (19, ':/i:', '</i>', '', '', '1');¬
+INSERT INTO evo_bbcode (id, postin, postout, startend, javascript, activation) VALUES (20, ':img:', '<img src=\"', '1', '1','function image(){\r\nvar imgsrc = prompt(\"Please enter the url of the image:\",\"http://www.yoursite.com/your-image.gif\")\r\ndocument.evobb.post.value+=\":img:\" + imgsrc +\":/img:\";\r\n}', ',','1');¬
+INSERT INTO evo_bbcode (id, postin, postout, startend, javascript, activation) VALUES (23, ':/img:', ',','\">', '0', '', '1');¬
+INSERT INTO evo_bbcode (id, postin, postout, startend, javascript, activation) VALUES (44, ':bitch:', '<h3> you fucking bitch, i will kick your damn hairy ass</h3>', '1', '', '1');¬
+INSERT INTO evo_bbcode (id, postin, postout, startend, javascript, activation) VALUES (43, ':br:', '<br>', '1', 'function br(){\r\ndocument.evobb.post.value+=\":br:\";\r\n}', '1');¬
+INSERT INTO evo_bbcode (id, postin, postout, startend, javascript, activation) VALUES (28, ':arial:', '<font face=arial>', '1', '', '1');¬
+INSERT INTO evo_bbcode (id, postin, postout, startend, javascript, activation) VALUES (29, ':times:', '<font face=times>', '1', '', '1');¬
+INSERT INTO evo_bbcode (id, postin, postout, startend, javascript, activation) VALUES (30, ':helvetica:', '<font face=helvetica>', '1', '', '1');¬
+INSERT INTO evo_bbcode (id, postin, postout, startend, javascript, activation) VALUES (31, ':courier:', '<font face=courier>', '1', '', '1');¬
+INSERT INTO evo_bbcode (id, postin, postout, startend, javascript, activation) VALUES (32, ':verdana:', '<font face=verdana>', '1', '', '1');¬
+INSERT INTO evo_bbcode (id, postin, postout, startend, javascript, activation) VALUES (33, ':times new roman:', '<font face=times new roman>', '1', '', '1');¬
+INSERT INTO evo_bbcode (id, postin, postout, startend, javascript, activation) VALUES (34, ':terminal:', '<font face=terminal>', '1', '', '1');¬
+INSERT INTO evo_bbcode (id, postin, postout, startend, javascript, activation) VALUES (35, ':red:', '<font color=red>', '1', '', '1');¬
+INSERT INTO evo_bbcode (id, postin, postout, startend, javascript, activation) VALUES (36, ':green:', '<font color=green>', '1', '', '1');¬
+INSERT INTO evo_bbcode (id, postin, postout, startend, javascript, activation) VALUES (37, ':black:', '<font color=black>', '1', '', '1');¬
+INSERT INTO evo_bbcode (id, postin, postout, startend, javascript, activation) VALUES (38, ':white:', '<font color=white>', '1', '', '1');¬
+INSERT INTO evo_bbcode (id, postin, postout, startend, javascript, activation) VALUES (39, ':yellow:', '<font color=yellow>', '1', '', '1');¬
+INSERT INTO evo_bbcode (id, postin, postout, startend, javascript, activation) VALUES (40, ':blue:', '<font color=blue>', '1', '', '1');¬
+INSERT INTO evo_bbcode (id, postin, postout, startend, javascript, activation) VALUES (41, ':orange:', '<font color=orange>', '1', '', '1');¬
+INSERT INTO evo_bbcode (id, postin, postout, startend, javascript, activation) VALUES (42, ':/font:', '</font>', '0', '', '1');¬
+INSERT INTO evo_bbcode (id, postin, postout, startend, javascript, activation) VALUES (45, ':url:', '<a href=\"', '1', '1',' function url(){\r\nvar imgsrc = prompt(\"Enter your Location:\",\"http://\")\r\ndocument.evobb.post.value+=\":url:\" + imgsrc +\":/url:\";\r\n} \r\n', ',','1');¬
+INSERT INTO evo_bbcode (id, postin, postout, startend, javascript, activation) VALUES (46, ':/url:', ',','\">font color=red> here </font></a>', '0', '', '1');

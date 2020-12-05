@@ -1,0 +1,44 @@
+<?php
+                        $bgcolor = "#000000";
+
+                        $text = "#ffffff";
+
+                        $link = "#ffffff";
+
+                        $vlink = "#ffffff";
+
+                        $alink = "#ffffff";
+
+                        $fontface = "Verdana, Arial, Helvetica, sans-serif";
+
+                        $fontsize= "1";
+
+                        $tablewidth = "95%";
+
+                        $tbl1color = "#A2A0A0";
+
+                        $tbl2color = "#3D5C71";
+
+                        $tblborder= "0";
+
+                        $tblheader = "#3D5C71";
+
+                        $postnew = "images/dark/newthread.gif";
+
+                        $postreply = "images/dark/newreply.gif";
+
+                        $postreplyclosed = "images/dark/post_replyclosed.gif";
+
+                        $header = "images/dark/logo.gif";
+
+                        $css = "";
+
+                        $forumname = "dvel";
+
+                        $headerfontcolor = "FFFFFF";
+
+                        $postpoll = "images/dark/newpoll.gif";
+
+                        $table_outline = "#777777";
+                         $buttontheme = "dark";
+                         ?>

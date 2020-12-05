@@ -1,0 +1,69 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/darren@hiebert.com/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.0.1	//
+DB_Sql	include/db_mysql.inc.php	/^  function DB_Sql($query = "") {$/;"	f
+DB_Sql	include/db_mysql.inc.php	/^class DB_Sql {$/;"	c
+Kalender	calendar.php	/^function Kalender($Monat,$Jahr)$/;"	f
+SchreibeKopf	calendar.php	/^function SchreibeKopf($Monatstitel,$HgFarbe,$SchrFarbe,$SchrGroesse,$SchrArt)$/;"	f
+SchreibeZelle	calendar.php	/^function SchreibeZelle($Inhalt,$HgFarbe,$SchrFarbe,$SchrGroesse,$SchrArt)$/;"	f
+add_box	include/pages.inc.php	/^function add_box(){$/;"	f
+add_todo	include/functions.inc.php	/^function add_todo($due_date,$priority,$percentage_completed,$text,$responsible_person,$note_text){$/;"	f
+admin_page	include/admin.inc.php	/^function admin_page($admin){$/;"	f
+affected_rows	include/db_mysql.inc.php	/^  function affected_rows() {$/;"	f
+authenticate	include/functions.inc.php	/^function authenticate() {$/;"	f
+connect	include/db_mysql.inc.php	/^  function connect($Database = "", $Host = "", $User = "", $Password = "") {$/;"	f
+convDate	include/functions.inc.php	/^function convDate($datestr)$/;"	f
+convDateToEU	include/functions.inc.php	/^function convDateToEU($datestr)$/;"	f
+convDateToUS	include/functions.inc.php	/^function convDateToUS($datestr)$/;"	f
+delete_project	include/functions.inc.php	/^function delete_project($project_id) {$/;"	f
+delete_todo	include/functions.inc.php	/^function delete_todo($todo_id) {$/;"	f
+delete_user	include/functions.inc.php	/^function delete_user($user_id) {$/;"	f
+details_page	include/pages.inc.php	/^function details_page($id){$/;"	f
+f	include/db_mysql.inc.php	/^  function f($Name) {$/;"	f
+free	include/db_mysql.inc.php	/^  function free() {$/;"	f
+generateMail	include/functions.inc.php	/^function generateMail($id,$action)$/;"	f
+groupAdministration	include/admin.inc.php	/^function groupAdministration($admin,$adminmodule,$groupnr,$action)$/;"	f
+halt	include/db_mysql.inc.php	/^  function halt($msg) {$/;"	f
+haltmsg	include/db_mysql.inc.php	/^  function haltmsg($msg) {$/;"	f
+inArray	include/functions.inc.php	/^function inArray ($needle, $haystack)$/;"	f
+link_id	include/db_mysql.inc.php	/^  function link_id() {$/;"	f
+lock	include/db_mysql.inc.php	/^  function lock($table, $mode="write") {$/;"	f
+makeFrontQuery	include/functions.inc.php	/^function makeFrontQuery($order_by, $selected_project){$/;"	f
+makeGroupDropdown	include/functions.inc.php	/^function makeGroupDropdown($myname,$selected_group) {$/;"	f
+makeLangDropDown	include/admin.inc.php	/^function makeLangDropDown($myname, $language) {$/;"	f
+makeProjectDropdown	include/functions.inc.php	/^function makeProjectDropdown($myname,$selected_project,$search=false) {$/;"	f
+makeSearchQuery	include/functions.inc.php	/^function makeSearchQuery($wildcards,$priority,$project, $responsible_persons,$order_by,$date_min,$date_max){$/;"	f
+makeUserDropdown	include/functions.inc.php	/^function makeUserDropdown($myname,$selected_names,$emty_choice, $multiple) $/;"	f
+metadata	include/db_mysql.inc.php	/^  function metadata($table='',$full=false) {$/;"	f
+next_record	include/db_mysql.inc.php	/^  function next_record() {$/;"	f
+nextid	include/db_mysql.inc.php	/^  function nextid($seq_name) {$/;"	f
+nf	include/db_mysql.inc.php	/^  function nf() {$/;"	f
+np	include/db_mysql.inc.php	/^  function np() {$/;"	f
+num_fields	include/db_mysql.inc.php	/^  function num_fields() {$/;"	f
+num_rows	include/db_mysql.inc.php	/^  function num_rows() {$/;"	f
+p	include/db_mysql.inc.php	/^  function p($Name) {$/;"	f
+page_foot	include/header.inc.php	/^function page_foot($page){$/;"	f
+page_top	include/header.inc.php	/^function page_top($title,$page){$/;"	f
+printTodoTable	include/pages.inc.php	/^function printTodoTable($xquery, $xis_search, $page) {$/;"	f
+projectAdministration	include/admin.inc.php	/^function projectAdministration($admin,$adminmodule,$action,$project)$/;"	f
+query	include/db_mysql.inc.php	/^  function query($Query_String) {$/;"	f
+query_id	include/db_mysql.inc.php	/^  function query_id() {$/;"	f
+search_box	include/pages.inc.php	/^function search_box($priority,$search_project,$responsible_person,$date_min,$date_max) {$/;"	f
+seek	include/db_mysql.inc.php	/^  function seek($pos = 0) {$/;"	f
+selectproject	include/header.inc.php	/^		function selectproject() {$/;"	f
+sess_close	include/session_handler_db.php	/^function sess_close() {$/;"	f
+sess_destroy	include/session_handler_db.php	/^function sess_destroy($key) {$/;"	f
+sess_gc	include/session_handler_db.php	/^function sess_gc($maxlifetime) {$/;"	f
+sess_open	include/session_handler_db.php	/^function sess_open($save_path, $session_name) {$/;"	f
+sess_read	include/session_handler_db.php	/^function sess_read($key) {$/;"	f
+sess_write	include/session_handler_db.php	/^function sess_write($key, $val) {$/;"	f
+showCalendar	include/header.inc.php	/^		function showCalendar()$/;"	f
+switchPriority	include/functions.inc.php	/^function switchPriority($priority) {$/;"	f
+table_names	include/db_mysql.inc.php	/^  function table_names() {$/;"	f
+unlock	include/db_mysql.inc.php	/^  function unlock() {$/;"	f
+update_todo	include/functions.inc.php	/^function update_todo($due_date, $priority, $percentage_completed, $text, $responsible_persons, $id,$/;"	f
+userAdministration	include/admin.inc.php	/^function userAdministration($module,$user,$page)$/;"	f
+userDialog	include/admin.inc.php	/^function userDialog($module,$user,$page) {$/;"	f

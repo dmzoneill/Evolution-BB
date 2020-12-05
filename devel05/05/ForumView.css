@@ -1,0 +1,97 @@
+a.ForumViewSortByLinks{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #ff9900;
+	font-weight: bold;
+	text-decoration: none;
+	cursor: default;
+}
+
+a.ForumViewSortByLinks:hover{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFFFFF;
+	font-weight: bold;
+	text-decoration: underline;
+	cursor: default;
+	
+}.ForumViewTopBar {
+	background-image: url(images/shadowbg.gif);
+	border-top: 1px solid #999999;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #000000;
+	text-decoration: none;
+	cursor: default;
+
+}
+
+.ForumViewPadding {
+	width: 100%;
+}
+
+a.ForumViewForumLinks{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #336699;
+	font-weight: bold;
+	text-decoration: none;
+	cursor: default;
+}
+
+a.ForumViewForumLinks:hover{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #336699;
+	font-weight: bold;
+	text-decoration: underline;
+	cursor: default;
+}
+
+.ForumViewForumOptionsBold {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+	cursor: default;
+}
+
+a.ForumViewUserLink {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: bold;
+	color: #FF9900;
+	text-decoration: none;
+	cursor: default;
+}
+a.ForumViewModLink:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: bold;
+	color: #FF9900;
+	text-decoration: underline;
+	cursor: default;
+}
+.ForumViewCatagory {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #336699;
+	text-decoration: none;
+	cursor: default;
+	background-image: url(images/catbg.gif);
+
+}
+.ForumViewForumsListBG {
+	background-color: #F5F5F5;
+}
+.ForumViewTableBorder1px {
+	border: 1px solid #999999;
+	padding: 3px
+}

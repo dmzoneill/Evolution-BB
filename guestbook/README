@@ -1,0 +1,77 @@
+...................................................
+..................installing.......................
+...................................................
+
+initial user / password.. 
+please change once logged in..
+
+username = webmaster
+password = password
+
+
+
+...................................................
+..................uploading........................
+...................................................
+
+well hopefully youve extracted this right
+you should have the following files
+
+------- evogb (folder)
+--------------- images (sub dir)
+--------------- languages (sub dir)
+----------- readme
+----------- guestbook.php
+----------- connect.php // edit this one
+----------- install.php
+----------- header.php
+----------- footer.php
+----------- control.php // admin panel
+----------- admin.php
+----------- login.php
+----------- post.php // javascript for smiles etc..
+----------- vars.php 
+----------- db_ (db types).php // 7 of these .. most common  = db_mysql.php
+
+
+so when you upload you show called a folder 
+called "evogb" with everything in there
+
+note: you can put everything into the root directory of your web site and also
+if you already have a footer.php and header.php you can use your ones instead of the ones supplied
+
+
+
+
+...................................................
+..............editing connect.php.....................
+...................................................
+
+
+just fill in your database details
+username
+password
+data base name
+data base type
+
+
+
+
+...................................................
+.................once edited.......................
+...................................................
+
+surf to http://yourdomain/evogb/install.php
+once installed go to login.php
+
+note : you do not have to delete the install.php after installation
+
+
+
+
+
+
+and thats it really :)
+
+
+

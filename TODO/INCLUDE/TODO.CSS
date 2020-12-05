@@ -1,0 +1,97 @@
+/* $Id: */
+
+    TH   { font-family : Arial,Helvetica; font-size : 11pt; }
+    TD   { font-family : Times New Roman,Times,Arial; font-size : 11pt; }
+body {
+    margin-top:0px;
+    margin-bottom:0px;
+    font-family : Times New Roman,Times,Arial;
+}
+
+/* margin-top = Abstand zwischen Fensterrand und Inhalt oben */
+/* margin-bottom = Abstand zwischen Fensterrand und Inhalt unten */
+
+
+
+p,h2,h3,h4,ul,ol,li,div,td,th { font-family:Arial, Helvetica, sans-serif; }
+
+/* font-family = Schriftart fuer Textelemente */
+/* Arial,sans-serif = Arial und serifenlose Schrift, Wert aenderbar */
+
+
+
+H1 { font-family : Arial,Helvetica; font-size : 22pt; }
+
+/* normaler Text */
+/* font-size = Schriftgroesse */
+/* 10pt = 10 Punkt, Wert aenderbar */
+
+
+
+pre { font-family:Courier New,Courier; font-size:10pt; }
+
+
+.code { background-color:#FFFFE0; }
+
+/* Tabelleninhalte mit Quellcode */
+/* background-color = Hintergrundfarbe */
+/* #FFFFE0 = helles Gelb, Wert aenderbar */
+/* Farbe sollte gleich sein wie bei td.xmpcode */
+
+
+.feedback { color:#FF0000; font-weight: bold; }
+
+
+td.xplcode { background-color:#EEEEFF; }
+
+/* Tabelleninhalte mit Erklaerungen */
+/* background-color = Hintergrundfarbe */
+/* #EEEEFF = helles Blau, Wert aenderbar */
+
+
+
+.doc { background-color:#EEEEEE; }
+
+/* Layout-Elemente mit hellgrauem Hintergrund */
+/* background-color = Hintergrundfarbe */
+/* #EEEEEE = helles Grau, Wert aenderbar */
+
+
+
+.qbar { background-color:#FFFFE0; font-size:9pt; font-family:Arial,sans-serif; }
+
+/* Layout-Elemente mit hellgrauem Hintergrund */
+/* nur MS IE 4, Netscape 4.0 ignoriert diese Angaben */
+/* background-color = Hintergrundfarbe */
+/* #FFFFE0 = helles Gelb, Wert aenderbar */
+/* font-family = Schriftart */
+/* Arial,sans-serif = Schriftarten, Wert aenderbar */
+/* font-size = Schriftgroesse */
+/* 9pt = 9 Punkt, Wert aenderbar */
+
+
+pre.normal { color:#000000; }
+
+/* normale praeformatierte Bereiche, nicht fuer Quelltexte */
+/* color = Farbe */
+/* #000000 = schwarz, Wert aenderbar */
+
+
+
+a:link    { font-style:bold; color:#000000; }
+a:visited { font-style:bold; color:#000000; }
+a:active  { font-style:italic; color:#000000; text-decoration:none;}
+
+
+TD.cal { font-family : Times New Roman,Times,Arial; font-size : 11pt; }
+
+/* a:link = Verweise zu noch nicht besuchten Seiten */
+/* a:visited = Verweise zu bereits besuchten Seiten */
+/* a:active = Verweise, die gerade angeklickt werden */
+/* color = Farbe */
+/* #AA5522 = kotzbeige, Wert aenderbar */
+/* #772200 = scheissbraun, Wert aenderbar */
+/* #000000 = schwarz, Wert aenderbar */
+/* text-decoration = Tesxtstil */
+/* underline = unterstrichen, Default-Wert, Wert aenderbar */
+/* none = nicht unterstrichen, Wert aenderbar */

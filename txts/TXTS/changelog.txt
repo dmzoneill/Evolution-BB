@@ -1,0 +1,28 @@
+CHANGELOG:<br><br>
+
+0.2 - 0.3<br>
+==========<br>
+- Multi-Language Packs.<br>
+- Changable flat and threaded forum views.<br>
+- Individual posts posses their own subjects.<br>
+- Templating ability.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Whats this? Well instead of you being restricted to the same look<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+for fdisplay and viewtopic, you can now redisgn you're own, place<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+it in the respectable directory (forumtemplates & viewtemplates)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+and select it from the themes section of the admin panel.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+For more infomation: http://www.evobb.com/templates.txt<br><br>
+
+- Administrate Themes: rewritten.<br>
+  No more style.txt, thus no need to chmod any files when setting up evobb.<br>
+- Cosmetics on various files.<br>
+- Integrated Java Chat with the IM system.<br><br>
+
+- Instant Messaging bug fix! No more pop up windows.<br>
+- Reply topic fixed. Breadcrum menu fixed.<br>
+
+

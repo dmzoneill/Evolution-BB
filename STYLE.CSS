@@ -1,0 +1,136 @@
+
+BODY  {
+	font-family : times new roman;
+	font-weight : normal;
+	font-style : normal;
+	color : #000000;
+	text-decoration : none;
+	text-align : left;
+	/*background-color : #FFFFFF;*/
+	SCROLLBAR-FACE-COLOR: #FFC608;
+	SCROLLBAR-HIGHLIGHT-COLOR: #4A739C;
+	SCROLLBAR-SHADOW-COLOR: #4A739C;
+	SCROLLBAR-3DLIGHT-COLOR: #4A739C;
+	SCROLLBAR-ARROW-COLOR: #4A739C;
+	SCROLLBAR-TRACK-COLOR: #4A739C;
+	SCROLLBAR-DARKSHADOW-COLOR: #4A739C;
+}
+
+P  {
+
+	font-size : 8pt;
+	font-family : Verdana, Arial, Helvetica, Sans-serif;
+	font-weight : normal;
+	font-style : normal;
+	color : #333333;
+	line-height : 100%;
+	
+}
+
+P.2  {
+
+	font-size : 6pt;
+	font-family : Verdana, Arial, Helvetica, Sans-serif;
+	font-weight : normal;
+	font-style : normal;
+	color : #222222;
+	line-height : 100%;
+	
+}
+
+P.3  {
+
+	font-size : 10pt;
+	font-family : Verdana, Arial, Helvetica, Sans-serif;
+	font-weight : bold;
+	font-style : bold;
+	color : #222222;
+	line-height : 100%;
+	
+}
+
+dd  {
+
+	font-size : 8pt;
+	font-family : Verdana, Arial, Helvetica, Sans-serif;
+	font-weight : normal;
+	font-style : normal;
+	color : #000000;
+	line-height : 150%;
+	
+}
+
+
+li  {
+
+	font-size : 8pt;
+	font-family : Verdana, Arial, Helvetica, Sans-serif;
+	font-weight : normal;
+	font-style : normal;
+	color :  #333333;
+	line-height : 125%;
+	
+}
+
+ul  {
+
+	font-size : 8pt;
+	font-family : Verdana, Arial, Helvetica, Sans-serif;
+	font-weight : normal;
+	font-style : normal;
+	color :  #333333;
+	line-height : 100%;
+	
+}
+
+
+
+/*this is the hyperlink settings*/
+a { 
+	text-decoration: none; 
+	font-family : Verdana, Arial, Helvetica, Sans-serif;
+	font-size: 8pt; 
+	color: #4A739C; 
+}
+a:hover { 
+	text-decoration: underline; 
+	font-family : Verdana, Arial, Helvetica, Sans-serif;
+	font-size: 8pt; 
+	color: #4A739C; 
+}
+
+A:Active  {
+	font-family : Verdana, Arial, Helvetica, Sans-serif;
+	font-size : 9pt;
+	font-weight : normal;
+	font-style : bold;
+	color : #4A739C;
+	text-decoration : underline;
+}
+
+input {
+		padding-left: 0.1cm;
+		padding-right: 0.1cm;
+		color: #333333;
+		font-family: verdana, arial, sans-serif; 
+		font-size: 10px;
+		width: 150px;
+}
+
+button {
+		padding-top: 0.1cm;
+		padding-left: 0.2cm;
+		padding-right: 0.2cm;
+		color: #333333;
+		font-family: verdana, arial, sans-serif; 
+		font-size: 10px;
+}
+
+select {
+		text-align: center;
+		padding-left: 0.2cm;
+		padding-right: 0.2cm;
+		color: #333333; 
+		font-family: verdana, arial, sans-serif; 
+		font-size: 10px;
+}

@@ -1,0 +1,101 @@
+a.StatsLink{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: bold;
+	color: #FF9933;
+	text-decoration: none;
+	cursor: default;
+
+	
+}a.StatsLink:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: bold;
+	color: #336699;
+	text-decoration: underline;
+	cursor: default;
+}
+
+.StatsBottom {
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #666666;
+	color: #999999;
+}
+
+.CalenderTable {
+	border: 1px solid #999999;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	cursor: default;
+}
+.CalenderTop {
+	background-color: #BED1E1;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: bold;
+	color: #000000;
+}
+.CalenderEvent{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: bold;
+	color: #FF0000;
+	text-decoration: none;
+}
+.CalenderToday {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: bold;
+	color: #FFFFFF;
+	background-color: #3674AA;
+}
+.StatsWidth {
+
+	width: 90%;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+.StatsInfoContent {
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #999999;
+	border-left-color: #999999;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	cursor: default;
+	background-image: url(images/silverbluebig.gif);
+
+}
+
+.StatsPortionMenuHeader {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: none;
+	color: #000000;
+	text-decoration: none;
+	background-image: url(images/silverbg.gif);
+	background-repeat: repeat-x;
+	margin: 0px;
+	padding: 0px;
+	height: 25px;
+	cursor: default;
+	vertical-align: middle;
+	text-align: center;
+	letter-spacing: normal;
+	white-space: normal;
+	border: 1px solid #999999;
+}
+
+	.StatsInfoWidth {
+	width: 20%;
+}

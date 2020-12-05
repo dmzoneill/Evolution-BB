@@ -1,0 +1,93 @@
+
+.newstext {
+	FONT: 12px Verdana, Arial, Helvetica, sans-serif; 
+	TEXT-TRANSFORM: none; 
+	CURSOR: default; 
+	COLOR: #ffdd8b; 
+	TEXT-DECORATION: none;
+}
+.newsshit {
+	FONT: 12px Verdana, Arial, Helvetica, sans-serif; 
+	TEXT-TRANSFORM: none; 
+	CURSOR: default; 
+	COLOR: #ffcc55; 
+	TEXT-DECORATION: none;
+}
+.headers {
+	FONT: bold small-caps 18px Verdana, Arial, Helvetica, sans-serif; 
+	TEXT-TRANSFORM: capitalize; 
+	CURSOR: default; 
+	COLOR: #ffdd8b; 
+	TEXT-DECORATION: none;
+}
+.menushit {
+	FONT: 12px Verdana, Arial, Helvetica, sans-serif; 
+	TEXT-TRANSFORM: none; 
+	CURSOR: default; 
+	COLOR: #ffdd8b; 
+	LIST-STYLE-TYPE: circle; 
+	TEXT-DECORATION: none;
+}
+A {
+	FONT: 12px Verdana, Arial, Helvetica, sans-serif; 
+	TEXT-TRANSFORM: none; 
+	CURSOR: default; 
+	COLOR: #ffddab; 
+	TEXT-DECORATION: none;
+}
+A:hover {
+	FONT-WEIGHT: normal; TEXT-TRANSFORM: none; 
+	CURSOR: default; 
+	COLOR: #ffddab; 
+	FONT-VARIANT: normal; 
+	TEXT-DECORATION: underline;
+}
+
+li  {
+	FONT: 12px Verdana, Arial, Helvetica, sans-serif; TEXT-TRANSFORM: none; CURSOR: default; COLOR: #ffeead; TEXT-DECORATION: none;
+}
+
+ul   {
+	FONT: 12px Verdana, Arial, Helvetica, sans-serif; TEXT-TRANSFORM: none; CURSOR: default; COLOR: #ffeead; TEXT-DECORATION: none;
+}
+
+/* Form elements */
+input,textarea, select {
+color : #000000;
+font-family : Verdana, Arial, Helvetica, sans-serif;
+font-size : 11px;
+font-weight : normal;
+border-color : #000000;
+}
+
+
+p {
+
+FONT: 12px Verdana, Arial, Helvetica, sans-serif; TEXT-TRANSFORM: none; CURSOR: default; COLOR: #ffeead; TEXT-DECORATION: none
+
+}
+
+
+input { text-indent : 2px; }
+
+
+/* The buttons used for bbCode styling in message post */
+input.button {
+background-color : #EFEFEF;
+color : #000000;
+font-family : Verdana, Arial, Helvetica, sans-serif;
+font-size : 11px;
+}
+
+
+/* The main submit button option */
+input.mainoption {
+background-color : #FAFAFA;
+font-weight : bold;
+}
+
+/* None bold submit button */
+input.liteoption {
+background-color : #FAFAFA;
+font-weight : normal;
+

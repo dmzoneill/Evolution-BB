@@ -1,0 +1,78 @@
+
+/* THE SCROLLBAR COLORS */
+body {
+	
+	scrollbar-face-color: #5A677E;
+    scrollbar-arrow-color: #000000;
+    scrollbar-base-color: #5A677E;
+    scrollbar-shadow-color: #5A677E;
+    scrollbar-highlight-color: #000000;
+    scrollbar-3d-light-color: #5A677E;
+	background-color : #ffffff;
+}
+
+/* TEXT THE USER ENTERS ETC, I THINK */
+.textfield {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #000000;
+	text-decoration: none;
+	background-color: #FFFFFF;
+	border: 1px groove #336699;
+
+/* CSS FOR THE BUTTONS */
+}
+.buttoncss {
+	font-family: Verdana, Arial;
+	font-size: 9px;
+	color: #000000;
+	text-decoration: none;
+	background-color: #EDEDED;
+	border: thin groove #336699;
+}
+
+/* FOR THE DROPDOWN MENUS, LIKE THE ONE WHEN THE ADMIN PANEL IS FIRST LOADED */
+.dropdownmenucss {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #000000;
+	text-decoration: none;
+	background-color: #EDEDED;
+	border: thin solid #000000;
+}
+
+/*ALL NON LINKS SHOULD FOLLOW THIS */
+.maintext {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	text-decoration: none;
+	cursor: default;
+}
+
+/* FOR NORMAL TEXT HEADERS */
+.maintextheader {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	text-decoration: none;
+	cursor: default;
+	font-weight: bold;
+
+/* LINK COLORS */
+}
+a {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #333333;
+	text-decoration: underline;
+	cursor: default;
+}
+
+/* HOVER COLORS */
+a:hover {
+	color: #336699;
+	text-decoration: none;
+	cursor: default;
+}

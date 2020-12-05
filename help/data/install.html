@@ -1,0 +1,142 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+<head>	
+<title>Welcome to EvoBB 0.4</title>
+<LINK REL=StyleSheet HREF="./stylesheet/style.css" TITLE="style" TYPE="text/css">
+</head>
+<body>
+
+<script language='javascript' src='./includes/vars.js'></script>
+<script language='javascript' src='./includes/header.js'></script>
+<script language='javascript' src='./includes/menu.js'></script>
+
+
+Ok now you should have read the first page, if you havent go back and <a target='main'  href='index.html'>read it</a>.<br>
+If you have read it and are ready with your ftp client then lets proceed.
+<br>
+</td></tr></table>
+<br>
+
+<script language=javascript>
+document.write(font1);
+</script>
+<b>Installation Steps</b>
+<script language=javascript>
+document.write("<hr color='"+color2+"'>");
+document.write(table2);
+document.write(font2);
+</script>
+<h5>Step 1 - > Editing the connect.php (1 - 3 minutes)</h5>
+In order for the EvoBB installation to take place we need to edit the connect.php and put in the required information.  <br><br>
+There are 2 ways of doing this. We can either use the nifty utility provided or we can get our hands dirty and use a text editor.  <br>
+In this guide we will address both methods.<br><br>
+
+<b>Method 1 -> EvoBB Connection manager setup program </b><br><br>
+This program which can be found in \evoinstall\forum\install edits the connect.php for you to ease the installation. 
+Just Run it and fill in the details and click <b> Edi the configuation file</b><br><br>If you confused about some of the information required then look at method 2 were most of it is explained<br>
+
+<br>
+<br>
+
+<b>Method 2 -> Getting dirty </b><br><br>
+First off dont jump into the first puddle you see that aint what i mean. <br>Were going to edit the connect.php using your preferred text editor. <br><br>
+When you open the connect.php you will see the following -><br><br>
+
+< ? php<br>
+ $host = "localhost"; /* THE HOST WHERE THE DATABASE IS */<br>
+ $username = ""; /* DATABASE USERNAME */<br>
+ $password = ""; /* DATABASE PASSWORD */<br>
+ $db_name = ""; /*DATABASE NAME */<br>
+ $db_type = "mysql"; /*DATABASE TYPE */<br>
+<br>
+$lang = "english";<br>
+ $dirname = "forum";<br>
+<br>
+/****  DON'T EDIT BELOW *****/<br>
+include($path."db_".$db_type.".php");<br>
+include($path. "languages/" .$lang.".php.inc");<br>
+$stream = new db;<br>
+$stream->connect();<br><br>
+
+Dont shit in your pants yet, its not as daunting as it looks, im irish, so how hard could it be for you :P.
+<br>
+<br>
+
+<b>$host</b> which is set as localhost is usually left alone you can on the other hand put in the ip address of the server which your on. either way its all good.<br><br>
+<b>$username</b> this is the username which you were provided with when you signed up for your web hosting. This is usually the same as your sites ftp login username but it can differ.<br><br>
+<b>$username</b> this is the password which you were provided with when you signed up for your web hosting. This is usually the same as your sites ftp login password but it can differ.<br><br>
+<b>$db_name</b> Well lets see now, you should have been provided with a database name which could be called anything.  Find this out from your web hoster.<br><br>
+<b>$db_type</b> 90% of the time the type of database is mysql but there are others which are supported, ibase, ifx, msql, mssql, postgresql and sybase.<br><br>
+<b>$lang</b> As this was written in advance of the EvoBB 04. release we only had the english language pack avalable, hopefully we will have french and german included.<br><br>
+<b>$dirname</b> If you upload the <b>forum</b> folder on your computer then this will not change, if you wich to change it for exmaple to http://www.myserver.com/my-brilliant-forum then $dirname would be <b>my-brilliant-forum</b><br><br>
+
+So this is how it should look -><br><br>
+
+< ? php<br>
+ $host = "localhost"; /* THE HOST WHERE THE DATABASE IS */<br>
+ $username = "neiller"; /* DATABASE USERNAME */<br>
+ $password = "thisismypass"; /* DATABASE PASSWORD */<br>
+ $db_name = "rt_db_name1"; /*DATABASE NAME */<br>
+ $db_type = "mysql"; /*DATABASE TYPE */<br>
+<br>
+$lang = "french";<br>
+ $dirname = "my-brilliant-forum";<br>
+<br>
+/****  DON'T EDIT BELOW *****/<br>
+include($path."db_".$db_type.".php");<br>
+include($path. "languages/" .$lang.".php.inc");<br>
+$stream = new db;<br>
+$stream->connect();<br><br>
+
+</td></tr></table>
+
+<br>
+<script language=javascript>
+document.write(table2);
+document.write(font2);
+</script>
+<h5>Step 2 - > Uploading the files (1 - 10 minutes)</h5>
+I dont know which ftp client you are using so all i can say is open up the connection mangager. 
+<br>If you have cute ftp and make a new connection.<br>  
+Use the ftp login details which you were provided with when your account was created.  
+Click connect and let the program log you into your site<br><br>
+Once connected you will see your files on the left which are on your computer and on the right the files which are on the server.  
+Using drag and drop, grab the <b>forum</b> folder and drop it into the window on the right, at this stage your files will begin uploading.<br><br>  
+Note :  depending on your connection, for instance it could take 5 minutes or more on a 56k modem and a hell of a lot faster if you have a broadband connection.
+</td></tr></table>
+
+<br>
+<script language=javascript>
+document.write(table2);
+document.write(font2);
+</script>
+<h5>Step 3 - > Begining the installation (1-3 minutes)</h5>
+Once all the files have been uploaded to your site open up your Internet browser.  <br> Now point your browser to the install script located @
+http://www.yoursite.com/forum/install/index.php<br><br>
+You will be greeted with a form asking you to make the initial administrator username and password.  Just fill out the form with your desired username and password and click <b>Start the Installation Proccess.</b><br><br>
+
+The script will now make all the neccessary editions and you will then be asked how many forums you would like. lets put in 10 to make it even and click <b>next >>> </b><br><br>
+You will now be asked to make groups and how many forums you want in each group. Once done click <b>Create Groups >>> </b><br><br>
+Next step is to name the forums and put a description of each one, once done click <b>Create Forums >>> </b><br><br>
+Your form will now be up and running assuming everything went well.  Please take not of any information you are giving in the final stage.<br><br>
+
+</td></tr></table>
+<br>
+<script language=javascript>
+document.write(table2);
+document.write(font2);
+</script>
+<h5>Conclusion - > ( 3 -16 minutes )</h5>
+Once step 1,2 and 3 are completed your pretty much on the road to managing a successfull community.  When newer versions of the BB come out you may want to upgrade your BB by following the instructions that come with the upgrade. <br>  They may have new features to make your board that bit nicer and more user friendly. <br><br>
+Keep updated, keep evoBB.<br> 
+<br> Its yours and its free.<br><br>EvoBB Team
+
+</td></tr></table>
+
+
+<script language='javascript' src='./includes/footer.js'></script>
+
+
+</body>
+</html>

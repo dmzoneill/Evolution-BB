@@ -1,0 +1,120 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+<head>	
+<title>Welcome to EvoBB 0.4</title>
+<LINK REL=StyleSheet HREF="./stylesheet/style.css" TITLE="style" TYPE="text/css">
+</head>
+<body>
+
+<script language='javascript' src='./includes/vars.js'></script>
+<script language='javascript' src='./includes/header.js'></script>
+<script language='javascript' src='./includes/menu.js'></script>
+
+EvoBB requires little file editing out of the box, but if your one of those people who likes it to look just a perticular way, then some file editing may be needed.  
+In this section well address file editing and which files may concern you!<br><br>
+Amongst other features EvoBB is equiped with a templating system to allow you to customize your board to the fullest.
+<br><br>
+
+
+<b>Forum Templates -></b><br>
+<b>View Topic Templates -></b><br>
+<br>
+
+
+In the forumtemplates and viewtemplates folders of your version you will find 2 files in each. <br>
+These files will allow you to change the way you and your visitors view the forum and most of all its easy to do.<br><br>
+
+So lets try our hand at one of these files < default.php > in the viewtemplates<br>
+rename it<br>
+then open it in whatever program and alter it to<br>
+look whatever way you want.  Then see how many columns<br>
+the table has that you have made:<br>
+ie<br>
+&lt;tr&gt;<br>
+&lt;td&gt;&lt;/td&gt;<br>
+&lt;/tr&gt;<br><br>
+
+would have 1 column. anyway, that little number that<br>
+is on a line by itself on the first line as the first<br>
+character tells evobb what the colspan of the title <br>
+and adminprint cells are so that they go all the way<br>
+across. make sure that is there.<br><br>
+
+now, on to something slightly more complicated: the table.<br><br>
+
+in the template file you have<br>
+number of columns for table<br>
+open table<br>
+table contents<br>
+close table<br><br>
+
+table contents of all that evobb worries about, and to<br>
+help evobb know where the table starts and ends you have<br>
+to put a couple special comment like things. [begin] <br>
+and [end].<br><br>
+
+so the file now looks like this:<br>
+number of columns<br>
+open table<br>
+[begin]<br>
+table contents<br>
+[end]<br>
+close table<br><br>
+
+if thats what it looks like then you are going good so<br>
+far. now all you have to do is put the special tags in<br>
+so that things like the post and username will appear<br>
+where you want it. if you look at any of the existing<br>
+templates in notepad you will see everything that you<br>
+have access to make show up wherever you want. it goes<br>
+something like<br>
+this:<br><br>
+
+[bg] you want to put this as the bgcolor of all the &lt;tr&gt;'s<br>
+that you have(alternates)<br><br>
+
+[username] well duh...<br>
+[title] ditto<br>
+[stars] ditto<br>
+[postcount] ditto<br>
+[awards] ditto<br>
+[views] ditto<br>
+[linkmenow] put this where you want the button that displays <br>
+the options for the poster.<br>
+[posted] this is the date (and time since) this post was posted.<br>
+[post] this is the post.<br>
+[editpost] put this where you want the edit post button<br>
+[pmlink] put this where you want the pm link to be<br>
+[replylink] put this where you want the reply link to <br>
+be (this is most relevant if you want to reply to a specific <br>
+post for threaded mode.)<br><br>
+
+
+here is a simple template:<br>
+1<br>
+&lt;table&gt;<br>
+[begin]<br>
+&lt;tr bgcolor=[bg]&gt;<br>
+&lt;td&gt;[username]<br>
+[title]<br>
+[stars]<br>
+[postcount]<br>
+[awards]<br>
+[views]<br>
+[linkmenow]<br>
+[posted]<br>
+[post]<br>
+[editpost]<br>
+[pmlink]<br>
+[replylink]&lt;/td&gt;<br>
+&lt;/tr&gt;<br>
+[end]<br>
+&lt;/table&gt;<br>
+
+
+<script language='javascript' src='./includes/footer.js'></script>
+
+
+</body>
+</html>

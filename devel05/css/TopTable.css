@@ -1,0 +1,36 @@
+a.TopTable{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: none;
+	color: #FF9900;
+	text-decoration: underline;
+	cursor: default;
+
+	
+}
+
+a.TopTable:hover{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: none;
+	color: #336699;
+	text-decoration: underline;
+	cursor: default;
+
+	
+}
+
+.TopLogoTable {
+	background-image: url(images/logobarbg.gif);
+
+}.Bold {
+	font-weight: bold;
+}

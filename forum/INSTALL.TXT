@@ -1,0 +1,29 @@
+EvoBB Installation Instructions
+
+
+Windows users:
+
+To Install EvoBB look in the install directory and double click the
+Setup.exe program and fill in the appropriate information (if you don't
+want to use the setup program simply open connect.php and put in the
+appropriate values by hand, it will do the same thing).
+
+Then open your ftp client and connect to your host.
+Upload this entire directory to the directory that you are installing EvoBB in.
+
+Then open a browser window and surf to 
+http://youhost.com/evobbdirectory/install
+(surf to the base directory and then add /install on the end)
+
+Give the page the username and password that you would like to have as
+the forum administrator.
+Give the number of forum groups you would like to have.
+Give the names of the groups and how many forums you want in each.
+Give the names and descriptions of each of the forums.
+
+If you got through that congrats, you have successfully installed EvoBB.
+
+
+Unix users:
+
+Same as windows users except you run the Setup file not the Setup.exe file.

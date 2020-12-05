@@ -1,0 +1,96 @@
+<xmp>
+ok, here is how it works if anyone wants to know:
+in http://www.xdweb.net/fod/forum/viewtemplates/ 
+there are 3 files. 
+Each of those files is a template for viewing threads. 
+and there is no php in them, just html so when you
+surf to it you will have the full file not just 
+the non-php part (cause there is no php in it.).
+
+surf there and get one of the files
+rename it
+then open it in whatever program and alter it to
+look whatever way you want.  then see how many columns
+the table has that you have made:
+ie
+<tr>
+<td></td>
+</tr>
+
+would have 1 column. anyway, that little number that
+is on a line by itself on the first line as the first
+character tells evobb what the colspan of the title 
+and adminprint cells are so that they go all the way
+across. make sure that is there.
+
+now, on to something slightly more complicated: the table.
+
+in the template file you have
+number of columns for table
+open table
+table contents
+close table
+
+table contents of all that evobb worries about, and to
+help evobb know where the table starts and ends you have
+to put a couple special comment like things. [begin] 
+and [end].
+
+so the file now looks like this:
+number of columns
+open table
+[begin]
+table contents
+[end]
+close table
+
+if thats what it looks like then you are going good so
+far. now all you have to do is put the special tags in
+so that things like the post and username will appear
+where you want it. if you look at any of the existing
+templates in notepad you will see everything that you
+have access to make show up wherever you want. it goes
+something like
+this:
+
+[bg] you want to put this as the bgcolor of all the <tr>'s
+that you have(alternates)
+
+[username] well duh...
+[title] ditto
+[stars] ditto
+[postcount] ditto
+[awards] ditto
+[views] ditto
+[linkmenow] put this where you want the button that displays 
+the options for the poster.
+[posted] this is the date (and time since) this post was posted.
+[post] this is the post.
+[editpost] put this where you want the edit post button
+[pmlink] put this where you want the pm link to be
+[replylink] put this where you want the reply link to 
+be (this is most relevant if you want to reply to a specific 
+post for threaded mode.)
+
+
+here is a simple template:
+1
+<table>
+[begin]
+<tr bgcolor=[bg]>
+<td>[username]
+[title]
+[stars]
+[postcount]
+[awards]
+[views]
+[linkmenow]
+[posted]
+[post]
+[editpost]
+[pmlink]
+[replylink]</td>
+</tr>
+[end]
+</table>
+</xmp>

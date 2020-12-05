@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<directory>
+  <file name="user_cp.gif" icon_position="857,207"/>
+  <file name="topic_closed.gif" icon_position="712,207"/>
+  <file name="search.gif" icon_position="567,207"/>
+  <file name="register.gif" icon_position="422,207"/>
+  <file name="post_topic.gif" icon_position="857,140"/>
+  <file name="post_reply.gif" icon_position="712,140"/>
+  <file name="post_poll.gif" icon_position="567,140"/>
+  <file name="members.gif" icon_position="422,140"/>
+  <file name="inbox.gif" icon_position="857,73"/>
+  <file name="help.gif" icon_position="712,73"/>
+  <file name="faqs.gif" icon_position="567,73"/>
+  <file name="bookmarks.gif" icon_position="422,73"/>
+</directory>

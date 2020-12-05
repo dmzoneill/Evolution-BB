@@ -1,0 +1,23 @@
+
+
+BODY  {
+	background-color: #FFFFFF;
+	line-height: 17px;
+	font-style: normal;
+	text-align: justify;
+	font-weight: normal;
+	font-variant: normal;
+	background-image:  url(../images/Evo-6.jpg);
+	background-repeat: repeat;
+}
+
+	A:link.fpsection	{ color: #dddddd; }
+	A:visited.fpsection	{ color: #dddddd; }
+	A:hover.fpsection	{ color: #ffffff; }
+
+	A:link.sidelink		{ color: #EDA259; }
+	A:visited.sidelink	{ color: #EDA259; }
+	A:hover.sidelink	{ color: #EDA259; }
+
+	FORM.search		{ padding: 0px; margin: 0px; }
+	INPUT.search		{ padding: 0px; margin: 0px; font-size: 10px; }

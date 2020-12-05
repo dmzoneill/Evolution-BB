@@ -1,0 +1,7 @@
+ErrorDocument 404 http://www.evobb.com/index.php?page=404
+ErrorDocument 401 http://www.evobb.com/index.php?page=404
+ErrorDocument 403 http://www.evobb.com/index.php?page=404
+ErrorDocument 401 http://www.evobb.com/index.php?page=404
+ErrorDocument 501 http://www.evobb.com/index.php?page=404
+ErrorDocument 502 http://www.evobb.com/index.php?page=404
+

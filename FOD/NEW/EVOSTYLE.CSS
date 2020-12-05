@@ -1,0 +1,18 @@
+BODY { 
+scrollbar-face-color: ededed; scrollbar-highlight-color: 666666; scrollbar-shadow-color: ededed; scrollbar-arrow-color: ededed; 
+scrollbar-base-color: ededed; scrollbar-dark-shadow-color: EDEDED; scrollbar-3d-light-color: ededed; }
+
+.maintext {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	text-decoration: none;
+	cursor: default;
+}
+.mainheader {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #000000;
+	cursor: default;
+}

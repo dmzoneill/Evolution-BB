@@ -1,0 +1,54 @@
+How do I update from a previous version?
+========================================
+
+Before every update _please_ make a backup of your data. Using mysqldump is a
+good thing...
+
+
+Version 0.9.10 --> 0.9.11
+-------------------------
+Nothing special should be needed.
+
+
+Version 0.9.6 --> 0.9.10
+------------------------
+Extensively re-coded. Database structure has been altered and it handles 
+multiple responsibilities properly now.
+
+To update the database-structure use 'update_0.9.6-0.10.0.sh' it runs the
+necessary SQL-scripts automagically. Don't forget to BACKUP your data BEFORE!
+
+This script makes several changes to the database definition. Due to the nature
+of these changes, it makes a temporary table during it's execution.
+
+This script might be buggy. It has been testet a lot but you can't know...
+Its known that it might loose some 'notes' if you used Todolist.php from the
+early days on... If you encounter problems or are able to fix bugs contact me as
+usual.
+
+Version 0.9.5 --> 0.9.6
+-----------------------
+New admin-user and bugfixes...
+
+mysql -u todo_database_user todo_database <  update_0.9.5-0.9.6.sql
+
+Version 0.9.4 --> 0.9.5
+-----------------------
+A new column percentage completed has been added to table todo_todos. To add
+this column run
+
+mysql -u todo_database_user todo_database <  update_0.9.4-0.9.5.sql
+
+This Script adds the new column "percentage_completed" and sets it to 0 for all
+open tasks and to 100 for every task marked as done.
+
+
+Version 0.9.3 --> 0.9.4
+-----------------------
+Language handling changed. You can't just copy your old config.inc. You have to
+change the new one!
+
+
+Version 0.9.x --> 0.9.3
+-----------------------
+Nothing special should be needed.

@@ -1,0 +1,18 @@
+#############################################################################
+########################     EvoBB 0.2r1  ###################################
+#############################################################################
+
+This update is very very minor, but i felt it should be done, as it makes 
+it all a little 'neater'.
+Basically, it includes:
+	- A fix for the tables in deletetopic.php(3).
+	- New feature: You can now delete individual posts from a topic.
+		This is done by the trashcan icon by the posters name.
+	- Performance enhancements in viewtopic.php(3).
+
+To update just simply replace the given files here, with the ones on your
+webserver.
+
+Enjoy :)
+
+- The EvoBB team.

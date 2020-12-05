@@ -1,0 +1,75 @@
+DROP TABLE IF EXISTS evo_avatars¬
+DROP TABLE IF EXISTS evo_news¬
+DROP TABLE IF EXISTS evo_hmf¬
+DROP TABLE IF EXISTS evo_stars¬
+DROP TABLE IF EXISTS evo_titles¬
+DROP TABLE IF EXISTS evo_usergroups¬
+DROP TABLE IF EXISTS evo_bans¬
+CREATE TABLE evo_attachlist (  id int(11) NOT NULL auto_increment,  attachname varchar(255) NOT NULL default '',  attachtype varchar(255) NOT NULL default '',  attachsize varchar(255) NOT NULL default '',  attachcreated varchar(255) NOT NULL default '',  attachlastaccess varchar(255) NOT NULL default '',  attachwho varchar(255) NOT NULL default '',  attachurl varchar(255) NOT NULL default '',  PRIMARY KEY  (id),  UNIQUE KEY id (id)) ¬
+CREATE TABLE evo_avatarlist (  id int(11) NOT NULL auto_increment,  avatarname varchar(255) NOT NULL default '',  avatarurl varchar(255) NOT NULL default '',  avatarsize varchar(255) NOT NULL default '',  avatartype varchar(255) NOT NULL default '',  uploadedby varchar(255) NOT NULL default '',  PRIMARY KEY  (id),  UNIQUE KEY id (id)) ¬
+CREATE TABLE evo_bbcode (  id int(11) NOT NULL auto_increment,  postin varchar(255) NOT NULL default '',  postout varchar(255) NOT NULL default '',  startend char(1) NOT NULL default '',  javascript blob NOT NULL,  activation char(1) NOT NULL default '',  PRIMARY KEY  (id),  UNIQUE KEY id (id)) ¬
+CREATE TABLE evo_calendar (  id int(11) NOT NULL auto_increment,  topic varchar(255) NOT NULL default '',  message blob NOT NULL,  poster varchar(255) NOT NULL default '',  calendardate varchar(255) NOT NULL default '',  extra varchar(255) NOT NULL default '',  PRIMARY KEY  (id),  UNIQUE KEY id (id)) ¬
+CREATE TABLE evo_emotions (  id int(11) NOT NULL auto_increment,  smile varchar(12) NOT NULL default '',  smileurl varchar(255) NOT NULL default '',  smileborder varchar(255) NOT NULL default '0',  smilealt varchar(255) NOT NULL default '',  smilewidth varchar(4) NOT NULL default '',  smileheight varchar(4) NOT NULL default '',  smileact varchar(255) NOT NULL default '',  PRIMARY KEY  (id),  UNIQUE KEY id (id)) ¬
+CREATE TABLE evo_hmf (  id int(11) NOT NULL auto_increment,  header blob NOT NULL,  meta blob NOT NULL,  footer blob NOT NULL,  PRIMARY KEY  (id),  UNIQUE KEY id (id))¬ 
+CREATE TABLE evo_news (  id int(11) NOT NULL auto_increment,  news blob NOT NULL,  PRIMARY KEY  (id),  UNIQUE KEY id (id)) ¬
+CREATE TABLE evo_settings (  id int(11) NOT NULL auto_increment,  bbactivation char(1) NOT NULL default '',  bbregister char(1) NOT NULL default '',  avatarurl varchar(255) NOT NULL default '',  avatardir varchar(255) NOT NULL default '',  avatarsize varchar(255) NOT NULL default '',  avataractivation char(1) NOT NULL default '',  attachurl varchar(255) NOT NULL default '',  attachdir varchar(255) NOT NULL default '',  attachsize varchar(255) NOT NULL default '',  attachspace varchar(255) NOT NULL default '',  attachtypes varchar(255) NOT NULL default '',  attachactivation char(1) NOT NULL default '',  bbcodejavascript blob NOT NULL,  calendaract char(1) NOT NULL default '',  calendarbirths char(1) NOT NULL default '',  calendarevents char(1) NOT NULL default '',  calendarbirthrank char(1) NOT NULL default '',  membersact char(1) NOT NULL default '',  membersrank char(1) NOT NULL default '',  memberscontactact char(1) NOT NULL default '',  membersviewact char(1) NOT NULL default '',  searchact char(1) NOT NULL default '',  searchterm char(1) NOT NULL default '',  searchuser char(1) NOT NULL default '',  pmsact char(1) NOT NULL default '',  pmsbbcode char(1) NOT NULL default '',  pmshtml char(1) NOT NULL default '',  pmssmiles char(1) NOT NULL default '',  pmsfilter char(1) NOT NULL default '',  bookmarksact char(1) NOT NULL default '',  overridehtml char(1) NOT NULL default '',  overridesmiles char(1) NOT NULL default '',  overridebbcode char(1) NOT NULL default '',  overridefilter char(1) NOT NULL default '',  postsperpage char(3) NOT NULL default '',  postorder varchar(5) NOT NULL default '',  topicsperpage char(3) NOT NULL default '',  hottopic char(3) NOT NULL default '',  newsfadercolors varchar(255) NOT NULL default '',  PRIMARY KEY  (id),  UNIQUE KEY id (id)) ¬
+CREATE TABLE evo_bans (  auto int(11) NOT NULL auto_increment,  ip varchar(255) NOT NULL default '',  type varchar(20) NOT NULL default '',  PRIMARY KEY  (auto),  KEY auto (auto)) ¬
+CREATE TABLE evo_stars (  d1 int(10) NOT NULL default '0',  d2 int(10) NOT NULL default '0',  d3 int(10) NOT NULL default '0',  d4 int(10) NOT NULL default '0',  d5 int(10) NOT NULL default '0',  d6 int(10) NOT NULL default '0') ¬
+CREATE TABLE evo_titles (  id int(11) NOT NULL default '0',  d1 varchar(255) NOT NULL default '',  d2 varchar(255) NOT NULL default '',  d3 varchar(255) NOT NULL default '',  d4 varchar(255) NOT NULL default '',  d5 varchar(255) NOT NULL default '',  d6 varchar(255) NOT NULL default '',  admin varchar(255) NOT NULL default '',  coadmin varchar(255) NOT NULL default '',  moderator varchar(255) NOT NULL default '') ¬
+CREATE TABLE evo_usergroups (  auto int(11) NOT NULL auto_increment,  name varchar(255) NOT NULL default '',  comments text NOT NULL,  members varchar(255) NOT NULL default '',  PRIMARY KEY  (auto),  KEY auto (auto)) ¬
+ALTER TABLE evo_users ADD `avatar` varchar(255) NOT NULL default 'spacer.gif', ADD `birthday` varchar(255) NOT NULL default '', ADD `usergroup` varchar(11) NOT NULL default 'none'¬
+INSERT INTO evo_emotions  VALUES (1, ';\\)', 'images/smiles/wink.gif', '0', 'wink', '100%', '100%', '1')¬
+INSERT INTO evo_emotions  VALUES (2, ':D', 'images/smiles/biggrin.gif', '0', 'Big Grin', '100%', '100%', '1')¬
+INSERT INTO evo_emotions  VALUES (3, ':confused:', 'images/smiles/confused.gif', '0', 'Confused', '100%', '100%', '1')¬
+INSERT INTO evo_emotions  VALUES (4, ':cool:', 'images/smiles/cool.gif', '0', 'cool', '100%', '100%', '1')¬
+INSERT INTO evo_emotions  VALUES (5, ':\\(', 'images/smiles/sad.gif', '0', 'sad', '100%', '100%', '1')¬
+INSERT INTO evo_emotions  VALUES (6, ':shocked:', 'images/smiles/shocked.gif', '0', 'shocked', '100%', '100%', '1')¬
+INSERT INTO evo_emotions  VALUES (7, ':\\)', 'images/smiles/smile.gif', '0', 'happy', '100%', '100%', '1')¬
+INSERT INTO evo_emotions  VALUES (8, ':angry:', 'images/smiles/angry.gif', '0', 'angry', '100%', '100%', '1')¬
+INSERT INTO evo_hmf VALUES (1, '', '', '')¬
+INSERT INTO evo_news VALUES (1, '')¬
+INSERT INTO evo_stars VALUES (15, 25, 105, 255, 505, 1005)¬
+INSERT INTO evo_themes VALUES (10, 'EvoBB', 1, '#FAFAFA', '#000000', '#23a0c6', '#000000', '#23a0c6', 'Verdana, Arial, Helvetica, sans-serif', 1, '75%', '#F1F1F1', '#F5F5F5', 0, '#E0E0E0', 'images/post_topic.gif', 'images/post_reply.gif', 'images/topic_closed.gif', 'images/theevologo.gif', 'a { text-decoration: none;  \r\n}\r\n\r\n\r\n/* Form elements */\r\nselect {\r\nbackground : #dee3e7;\r\nfont-family : Verdana, Arial, Helvetica, sans-serif;\r\nfont-size : 11px;\r\nfont-weight : normal;\r\nborder-color : #000000 1px;\r\nfont-color : #000000;\r\n}\r\n\r\n/* The text input fields background colour */\r\n\r\ninput.post, textarea.post, select {\r\nbackground : #dee3e7;\r\nborder-color : #000000 1px;\r\nfont-color : #000000;\r\n}\r\n\r\ninput { text-indent : 2px; }\r\n\r\n/* The buttons used for bbCode styling in message post */\r\n\r\ninput.button {\r\nbackground : #EFEFEF;\r\ncolor : #000000;\r\nfont-family : Verdana, Arial, Helvetica, sans-serif;\r\nfont-size : 11px;\r\nborder-color : #000000 1px;\r\n\r\n}\r\n\r\n/* make the scrollbar abit more fancier */\r\nBODY { \r\nscrollbar-face-color: #dee3e7; scrollbar-highlight-color: #f3f3f3; scrollbar-shadow-color: #f3f3f3; scrollbar-arrow-color: #000000; scrollbar-base-color: #6d8693; scrollbar-dark-shadow-color: white; scrollbar-3d-light-color: #9BAAC1 ; }\r\n\r\n .InputBox {\r\n     BORDER-RIGHT: white 1px inset;\r\n     BORDER-TOP: white 1px inset;\r\n     BACKGROUND-ATTACHMENT: fixed;\r\n     BORDER-LEFT: white 1px inset;\r\n     BORDER-BOTTOM: white 1px inset;\r\n     FONT-FAMILY: Verdana;\r\n   }\r\n\r\n .InputButton {\r\n          BORDER-RIGHT: white 1px outset;\r\n    BORDER-TOP: white 1px outset;\r\n    BORDER-LEFT: white 1px outset;\r\n    BORDER-BOTTOM: white 1px outset;\r\n     FONT-FAMILY: Verdana;\r\n     FONT-WEIGHT: bolder;\r\n     COLOR: #FFFFFF;\r\n     BACKGROUND-COLOR: #37260E;\r\n    }', 'EvoBB Forums', '#FB8B00', 'images/post_poll.gif', '#BCBCBC', 'default', 'EvoBB', 'withnews')¬
+INSERT INTO evo_usergroups  VALUES (0, 'Administrators', 'Highest ranking members of the board.', '0|1')¬
+INSERT INTO evo_titles (id, d1, d2, d3, d4, d5, d6, admin, coadmin, moderator) VALUES (1, 'EvoBB Newbie!', 'EvoBB User!', 'EvoBB Regular!', 'EvoBB Regular!', 'EvoBB Veteran!', 'EvoBB Veteran!', 'Slacker aka Admin', 'Co-Slacker', 'Moderator')¬
+INSERT INTO evo_bbcode  VALUES (1, ':hr:', '<hr>', '1', '\r\nfunction hr(){\r\ndocument.evobb.post.value+=\":hr:\";\r\n}', '1')¬
+INSERT INTO evo_bbcode  VALUES (2, ':h1:', '<h1>', '1', 'function h(){\r\nvar imgsrc = prompt(\"Enter your message:\", \"Hello world\");\r\nvar hsize = prompt(\"Enter your heading size 1-6 :\", \"2\");\r\ndocument.evobb.post.value+=\":h\" + hsize + \":\" + imgsrc + \":/h\" + hsize + \":\";}\r\n</script>', '1')¬
+INSERT INTO evo_bbcode  VALUES (3, ':h2:', '<h2>', '1', '', '1')¬
+INSERT INTO evo_bbcode  VALUES (4, ':h3:', '<h3>', '1', '', '1')¬
+INSERT INTO evo_bbcode  VALUES (5, ':h4:', '<h4>', '1', '', '1')¬
+INSERT INTO evo_bbcode  VALUES (6, ':h5:', '<h5>', '1', '', '1')¬
+INSERT INTO evo_bbcode  VALUES (7, ':h6:', '<h6>', '1', '', '1')¬
+INSERT INTO evo_bbcode  VALUES (8, ':/h1:', '</h1>', '0', '', '1')¬
+INSERT INTO evo_bbcode  VALUES (9, ':/h2:', '</h2>', '0', '', '1')¬
+INSERT INTO evo_bbcode  VALUES (10, ':/h3:', '</h3>', '0', '', '1')¬
+INSERT INTO evo_bbcode  VALUES (11, ':/h4:', '</h4>', '0', '', '1')¬
+INSERT INTO evo_bbcode  VALUES (12, ':/h5:', '</h5>', '0', '', '1')¬
+INSERT INTO evo_bbcode  VALUES (13, ':/h6:', '</h6>', '0', '', '1')¬
+INSERT INTO evo_bbcode  VALUES (14, ':b:', '<b>', '1', 'function bold(){\r\nvar imgsrc = prompt(\"Enter your message:\", \"hello world\")\r\ndocument.evobb.post.value+=\":b:\" + imgsrc +\":/b:\";\r\n}\r\n', '1')¬
+INSERT INTO evo_bbcode  VALUES (15, ':/b:', '</b>', '0', '', '1')¬
+INSERT INTO evo_bbcode  VALUES (16, ':u:', '<u>', '1', 'function underline(){\r\nvar imgsrc = prompt(\"Enter your message:\", \"Hello world\")\r\ndocument.evobb.post.value+=\":u:\" + imgsrc +\":/u:\";\r\n}', '1')¬
+INSERT INTO evo_bbcode  VALUES (17, ':/u:', '</u>', '0', '', '1')¬
+INSERT INTO evo_bbcode  VALUES (18, ':i:', '<i>', '', 'function italic(){\r\nvar imgsrc = prompt(\"Enter your message:\", \"Hello World\")\r\ndocument.evobb.post.value+=\":i:\" + imgsrc +\":/i:\";\r\n}', '1')¬
+INSERT INTO evo_bbcode  VALUES (19, ':/i:', '</i>', '', '', '1')¬
+INSERT INTO evo_bbcode  VALUES (20, ':img:', '<img src=\"', '1', 'function image(){\r\nvar imgsrc = prompt(\"Please enter the url of the image:\",\"http://www.yoursite.com/your-image.gif\")\r\ndocument.evobb.post.value+=\":img:\" + imgsrc +\":/img:\";\r\n}','1')¬
+INSERT INTO evo_bbcode  VALUES (23, ':/img:', '\">', '0', '', '1')¬
+INSERT INTO evo_bbcode  VALUES (44, ':bitch:', '<h3> you fucking bitch, i will kick your damn hairy ass</h3>', '1', '', '1')¬
+INSERT INTO evo_bbcode  VALUES (43, ':br:', '<br>', '1', 'function br(){\r\ndocument.evobb.post.value+=\":br:\";\r\n}', '1')¬
+INSERT INTO evo_bbcode  VALUES (28, ':arial:', '<font face=arial>', '1', '', '1')¬
+INSERT INTO evo_bbcode  VALUES (29, ':times:', '<font face=times>', '1', '', '1')¬
+INSERT INTO evo_bbcode  VALUES (30, ':helvetica:', '<font face=helvetica>', '1', '', '1')¬
+INSERT INTO evo_bbcode  VALUES (31, ':courier:', '<font face=courier>', '1', '', '1')¬
+INSERT INTO evo_bbcode  VALUES (32, ':verdana:', '<font face=verdana>', '1', '', '1')¬
+INSERT INTO evo_bbcode  VALUES (33, ':times new roman:', '<font face=times new roman>', '1', '', '1')¬
+INSERT INTO evo_bbcode  VALUES (34, ':terminal:', '<font face=terminal>', '1', '', '1')¬
+INSERT INTO evo_bbcode  VALUES (35, ':red:', '<font color=red>', '1', '', '1')¬
+INSERT INTO evo_bbcode  VALUES (36, ':green:', '<font color=green>', '1', '', '1')¬
+INSERT INTO evo_bbcode  VALUES (37, ':black:', '<font color=black>', '1', '', '1')¬
+INSERT INTO evo_bbcode  VALUES (38, ':white:', '<font color=white>', '1', '', '1')¬
+INSERT INTO evo_bbcode  VALUES (39, ':yellow:', '<font color=yellow>', '1', '', '1')¬
+INSERT INTO evo_bbcode  VALUES (40, ':blue:', '<font color=blue>', '1', '', '1')¬
+INSERT INTO evo_bbcode  VALUES (41, ':orange:', '<font color=orange>', '1', '', '1')¬
+INSERT INTO evo_bbcode  VALUES (42, ':/font:', '</font>', '0', '', '1')¬
+INSERT INTO evo_bbcode  VALUES (45, ':url:', '<a href=\"', '1', ' function url(){\r\nvar imgsrc = prompt(\"Enter your Location:\",\"http://\")\r\ndocument.evobb.post.value+=\":url:\" + imgsrc +\":/url:\";\r\n} \r\n', '1')¬
+INSERT INTO evo_bbcode  VALUES (46, ':/url:', '\">font color=red> here </font></a>', '0', '', '1')¬
+INSERT INTO evo_settings VALUES (1, '1', '1', '', '', '51200', '1', '', '', '102400', '52428800', 'ace,rar,zip,txt,cpp,c,cpp,c,htm,html,jpg,gif,bmp,png,java,h,deb', '1', '<script language=javascript>\r\n\r\n\r\nfunction evobbsmile () {\r\nreturn;\r\n}\r\n\r\nfunction smile(add) {\r\n	var revisedpost;\r\n	var currentpost = document.evobb.post.value;\r\n	revisedpost = currentpost+add;\r\n	document.evobb.post.value=revisedpost;\r\n	document.evobb.post.focus();\r\n	return;\r\n}\r\n\r\n</script>\r\n\r\n\r\n\r\n<a href=\"javascript:bold();\">\r\n<image src=\'images/bold.gif\' border=\'0\' alt=\'Bold\'></a>\r\n<a href=\"javascript:italic();\">\r\n<image src=\'images/italic.gif\' border=\'0\' alt=\'Italic\'></a>\r\n<a href=\"javascript:underline();\">\r\n<image src=\'images/underline.gif\' border=\'0\' alt=\'Underline\'></a>\r\n<a href=\"javascript:image();\">\r\n<image src=\'images/image.gif\' border=\'0\' alt=\'Insert Image\'></a>\r\n<a href=\"javascript:h();\">\r\n<image src=\'images/fontsize.gif\' border=\'0\' alt=\'Heading size\'></a>\r\n<a href=\"javascript:br();\">\r\n<image src=\'images/br.gif\' border=\'0\' alt=\'Line Break\'></a>\r\n<a href=\"javascript:hr();\">\r\n<image src=\'images/hr.gif\' border=\'0\' alt=\'Horizontal line\'></a>\r\n<a href=\"javascript:url();\">\r\n<image src=\'images/URL.gif\' border=\'0\' alt=\'URL\'></a>', '1', '1', '1', '3', '1', '2', '1', '1', '1', '1', '1', '1', '1', '0', '1', '1', '1', '1', '1', '1', '0', '5', 'ASC', '12', '3', 'FFFFFF|EEEEEE|CCCCCC|999999|666666|333333|000000')

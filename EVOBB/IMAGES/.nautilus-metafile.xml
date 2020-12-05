@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<directory>
+  <file name="thre" icon_position="143,173"/>
+  <file name="tiny-alert.png" icon_position="560,216"/>
+  <file name="closed.gif" icon_position="575,466"/>
+  <file name="on.gif" icon_position="15,1454"/>
+  <file name="thread.gif" icon_position="139,1433"/>
+  <file name="thread-hot_red.gif" icon_position="156,1673"/>
+  <file name="thread-hot.gif" icon_position="65,653"/>
+  <file name="thread_closed.gif" icon_position="115,1723"/>
+  <file name="thread_red.gif" icon_position="130,1760"/>
+  <file name="karma.gif" icon_position="125,896"/>
+  <file name="icons" default_component="OAFIID:nautilus_file_manager_list_view:521e489d-0662-4ad7-ac3a-832deabe111c" icon_position="596,423"/>
+</directory>

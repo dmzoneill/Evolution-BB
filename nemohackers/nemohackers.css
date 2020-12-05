@@ -1,0 +1,57 @@
+.bodystlye {
+	margin: 1px;
+	background-color: #FFFFFF;
+
+}
+.menuheader {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	text-decoration: none;
+	cursor: default;
+	font-weight: bold;
+	filter: DropShadow(Color=#999999, OffX=1 px, OffY=1 px, Positive=true);
+
+}
+.menulink {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	text-decoration: none;
+	cursor: default;
+	font-weight: normal;
+}
+a {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #163349;
+	cursor: default;
+}
+a:hover {
+	color: #3E5F7A;
+	text-decoration: underline;
+	cursor: default;
+}
+.splashtexttable {
+	border: 1px dashed #000000;
+	width: auto;
+	margin: 10px;
+	background-color: #FFFFFF;
+	padding: 5px;
+
+
+
+
+
+}
+.text {
+
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	text-decoration: none;
+	cursor: default;
+	font-weight: normal;
+}

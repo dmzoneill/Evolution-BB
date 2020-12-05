@@ -1,0 +1,455 @@
+a:link
+	{ 
+		font-family: Arial, helvetica, sans-serif; 
+		color: #000000; 
+		text-decoration: underline;
+	}
+  
+a:visited 
+	{ 
+		font-family: Arial, helvetica, sans-serif; 
+		color: #000000; 
+		text-decoration: underline;
+	}
+a:hover
+	{ 
+		font-family: Arial, helvetica, sans-serif; 
+		color: #0066CC; 
+		text-decoration: underline;
+	}
+	
+a.menu:link 
+	{ 
+		font-family: Arial, helvetica, sans-serif; 
+		color: #000000; 
+		text-decoration: none;
+	}
+  
+
+a.menu:visited 
+	{ 
+		font-family: Arial, helvetica, sans-serif; 
+		color: #000000; 
+		text-decoration: none;
+	}
+a.menu:hover
+	{ 
+		font-family: Arial, helvetica, sans-serif; 
+		color: #0066CC;
+		text-decoration: underline;
+	}
+	
+
+
+
+a.HEADLINE
+	{
+		font-family: Arial, helvetica, sans-serif; 
+		color: #000000; 
+		font-size: 26px;
+		font-weight: bold;	
+		text-decoration: underline;
+	}	
+	
+a.SHOP
+	{
+		font-family: Arial, helvetica, sans-serif; 
+		color: #FFFFFF; 
+		font-size: 14px;
+		font-weight: bold;	
+		text-decoration: none;
+	}		
+
+a.OFFERBOX:link
+	{ 
+		background-color: #FFFFFF;
+		font-family: Arial, helvetica, sans-serif; 
+		color: black;
+		font-size: 10px;
+		font-weight: bold;		
+	}
+a.OFFERBOX:visited
+	{ 
+		background-color: #FFFFFF;
+		font-family: Arial, helvetica, sans-serif; 
+		color: black;
+		font-size: 10px;
+		font-weight: bold;		
+	}
+
+a.TAB
+	{ 
+		background-color: #CCCCCC;
+		font-family: Arial, helvetica, sans-serif; 
+		color: #000000; 
+		font-size: 11px;
+		text-decoration: none;
+		font-weight: normal;
+	}		
+
+a.LARGETAB
+	{ 
+		background-color: #CCCCCC;
+		font-family: Arial, helvetica, sans-serif; 
+		color: #000000; 
+		font-size: 12px;
+		text-decoration: none;
+		font-weight: normal;
+	}		
+	
+
+FONT.HEADLINE
+	{
+		font-family: Arial, helvetica, sans-serif; 
+		color: #000000; 
+		font-size: 26px;
+		font-weight: bold;	
+	}		
+	
+FONT.HEADLINE1
+	{
+		font-family: Arial, helvetica, sans-serif; 
+		color: #000000;
+		font-size: 16px;
+		font-weight: bold;	
+	}	
+	
+FONT.HEADLINE2A
+	{
+		font-family: Arial, helvetica, sans-serif;  
+		color: #000000;
+		font-size: 19px;
+		font-weight: bold;
+	}		
+	
+FONT.HEADLINE2
+	{
+		font-family: Arial, helvetica, sans-serif;  
+		color: #000080;
+		font-size: 19px;
+		font-weight: bold;
+	}			
+
+.OFFERBOX
+	{ 
+		font-family: Arial, helvetica, sans-serif;  
+		font-size: 10px;
+		color: #000000;
+	}
+	
+FONT.SHOPBLACK1
+	{
+		font-family: Arial, helvetica, sans-serif;  
+		color: #000000;
+		font-size: 18px;
+		font-weight: bold;
+	}			
+	
+FONT.SHOPGREY1
+	{
+		font-family: Arial, helvetica, sans-serif;  
+		color: #999999;
+		font-size: 18px;
+		font-weight: bold;
+	}		
+	
+FONT.SHOPBLACK
+	{
+		font-family: Arial, helvetica, sans-serif;  
+		color: #000000;
+		font-size: 16px;
+		font-weight: bold;
+	}			
+	
+FONT.SHOPGREY
+	{
+		font-family: Arial, helvetica, sans-serif;  
+		color: #999999;
+		font-size: 16px;
+		font-weight: bold;
+	}		
+	
+UL
+	{ 
+		font-family: Arial, helvetica, sans-serif; 
+		color: #000000; 
+		font-size: 13px;
+	}
+P
+	{ 
+		font-family: Arial, helvetica, sans-serif; 
+		color: #000000; 
+		font-size: 13px;
+	}
+	
+FONT.BASE
+	{
+		font-family: Arial, helvetica, sans-serif; 
+		color: #000000; 
+		font-size: 13px;
+	}		
+	
+FONT.BLACK
+	{ 
+		font-family: Arial, helvetica, sans-serif; 
+		color: #000000; 
+		font-size: 13px;
+	}		
+	
+FONT.COLOUR
+	{ 
+		font-family: Arial, helvetica, sans-serif; 
+		color: #000084; 
+		font-size: 13px;
+	}		
+	
+FONT.DEBIT
+	{ 
+		font-family: Arial, helvetica, sans-serif; 
+		color: #FF0000;
+		font-size: 13px;
+	}	
+FONT.CREDIT
+	{ 
+		font-family: Arial, helvetica, sans-serif; 
+		color: #000000;
+		font-size: 13px;
+	}	
+	
+FONT.LOWER
+	{ 
+		font-family: Arial, helvetica, sans-serif; 
+		color: #000000;
+		font-size: 11px;
+	}
+	
+FONT.LOWERBLACK
+	{ 
+		font-family: Arial, helvetica, sans-serif; 
+		color: #000000;
+		font-size: 11px;
+	}	
+	
+FONT.LOWER1
+	{ 
+		font-family: Arial, helvetica, sans-serif; 
+		color: #008400;
+		font-size: 11px;
+	}	
+	
+FONT.WARNING
+	{
+		font-family: Arial, helvetica, sans-serif; 
+		color: #FF0000; 
+		font-size: 13px;
+		font-weight: bold;		
+	}	
+
+TD.WHITE
+	{
+		background-color: #FFFFFF;
+	}
+
+TD.MENUHEAD
+	{
+		background-color: ID488F;
+		font-family: Arial, helvetica, sans-serif;
+		color: #FFFFFF;
+		font-size: 12px;
+		font-weight: bold;
+	}
+	
+TD.MENUBOLD
+	{ 
+		background-color: #CCCCCC;
+		font-family: Arial, helvetica, sans-serif; 
+		color: #000000;
+		font-size: 12px;
+		font-weight: bold;	
+	}		
+	
+TD.MENU
+	{ 
+		background-color: #CCCCCC;
+		font-family: Arial, helvetica, sans-serif; 
+		color: #000000;
+		font-size: 11px;
+		font-weight: normal;	
+	}		
+	
+TD.CONTACT
+	{ 
+		background-color: #CCCCCC;		
+	}	
+	
+TD.SHOPTEXT
+	{ 
+		background-color: #FFFFFF;
+		font-family: Arial, helvetica, sans-serif; 
+		color: #000000; 
+		font-size: 12px;
+		font-weight: normal;		
+	}	
+	
+TD.SHOPNAME
+	{ 
+		background-color: #CCCCCC;
+		font-family: Arial, helvetica, sans-serif; 
+		color: #000000; 
+		font-size: 12px;
+		font-weight: bold;		
+	}	
+	
+TD.SHOPTITLE
+	{ 
+		background-color: #808080;
+		font-family: Arial, helvetica, sans-serif; 
+		color: #FFFFFF; 
+		font-size: 16px;
+		font-weight: bold;		
+	}	
+	
+
+TD.PLAIN
+	{ 
+		background-color: #CCCCCC;
+		font-family: Arial, helvetica, sans-serif; 
+		color: #000000; 
+		font-size: 13px;
+		font-weight: bold;		
+	}
+	
+TD.PLAINLINKED
+	{ 
+		background-color: #CCCCCC;	
+		font-family: Arial, helvetica, sans-serif; 
+		font-size: 13px;
+		font-weight: bold;		
+	}	
+	
+TD.CALENDAR
+	{ 
+		background-color: #5A00EF;
+		font-family: Arial, helvetica, sans-serif; 
+		color: #FFFFFF; 
+		font-size: 13px;
+		font-weight: bold;
+	}	
+
+TD.SHARED
+	{ 
+		background-color: #000084;
+		font-family: Arial, helvetica, sans-serif; 
+		color: #FFFFFF; 
+		font-size: 13px;
+		font-weight: bold;
+	}
+	
+	
+TD.PUBLIC
+	{ 
+		background-color: #50B328;
+		font-family: Arial, helvetica, sans-serif; 
+		color: #FFFFFF; 
+		font-size: 13px;
+		font-weight: bold;	
+	}	
+	
+TD.PRIVATE
+	{ 
+		background-color: #808080;
+		font-family: Arial, helvetica, sans-serif; 
+		color: #FFFFFF; 
+		font-size: 13px;
+		font-weight: bold;		
+	}		
+	
+TD.TAB
+	{ 
+		background-color: #CCCCCC;
+		font-family: Arial, helvetica, sans-serif; 
+		color: #000000; 
+		font-size: 11px;
+		font-weight: normal;
+	}		
+
+TD.LARGETAB
+	{ 
+		background-color: #CCCCCC;
+		font-family: Arial, helvetica, sans-serif; 
+		color: #000000; 
+		font-size: 12px;
+		font-weight: bold;
+	}		
+
+TD.LOWER
+	{ 
+		font-family: Arial, helvetica, sans-serif; 
+		color: #000000;
+		font-size: 11px;
+	}
+	
+TD.STANDARD
+	{ 
+		font-family: Arial, helvetica, sans-serif; 
+		color: #000000;
+		font-size: 13px;
+	}	
+
+BODY
+	{
+		background-color: #FFFFFF;
+		font-family: Arial, helvetica, sans-serif; 
+               	font-size: 11px;
+		color: #000000;
+	}
+
+TD
+	{
+		font-family: Arial, helvetica, sans-serif; 
+               	font-size: 11px;
+		color: #000000;
+	}
+
+SELECT 	{
+		font-family: Arial, helvetica, sans-serif; 
+               	font-size: 11px;
+                color:#000000;
+        }
+
+INPUT  
+	{
+		font-family: Arial, helvetica, sans-serif; 
+                font-size: 11px;
+                color:#000000;
+        }
+
+TEXTAREA       
+	{
+		font-family: Arial, helvetica, sans-serif; 
+                font-size: 11px;
+                color:#000000;
+        }    
+        
+.BORDERMAIN
+	{
+		border-style: solid;
+		border-width: thin;
+		border-color: #CCCCCC;
+	}	
+	
+.BORDERBLACK
+	{
+		border-style: solid;
+		border-width: thin;
+		border-color: #000000;
+	}	
+
+.PERCENTBAR
+	{
+		background-color: white;
+		border-style: solid;
+		border-width: thin;
+		border-color: #000000;
+	}	
+.postbody { font-size : 12px;}
