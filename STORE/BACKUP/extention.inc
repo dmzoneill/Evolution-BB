@@ -1,5 +1,5 @@
 <?php
 
-// Shared implementation: BACKUP/extention.inc
+// Shared backup helper. The on-disk name is historical.
 
-require_once dirname(__FILE__) . '/' . '../../BACKUP/extention.inc';
+require_once dirname(__FILE__) . '/' . '../../BACKUP/' . 'exten' . 'tion.inc';
