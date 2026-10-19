@@ -1,8 +1,5 @@
 <?php
-/*******************************************************
- * This File simply holds the file extention for your
- * phpBB files. If you use .php simply leave this file
- * alone
- * *****************************************************/
-$phpEx = "php";
-?>
+
+// Shared implementation: BACKUP/extention.inc
+
+require_once dirname(__FILE__) . '/' . '../../BACKUP/extention.inc';

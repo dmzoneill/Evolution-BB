@@ -1,6 +1,5 @@
-</center></font>
-</TD></TR>
-</TABLE></td></tr>
-</table>
-</body>
-</html>
+<?php
+
+// Shared implementation: devel/admin/footer.php
+
+require_once dirname(__FILE__) . '/' . '../../devel/admin/footer.php';

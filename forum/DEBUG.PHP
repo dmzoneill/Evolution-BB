@@ -1,12 +1,11 @@
 <?php
 
-require('track.php');
-require('functions.php');
-require('connect.php');
-require('header.php');
+// Shared implementation: EVOBB/DEBUG.PHP
 
+$evobbDirectory = dirname(__FILE__);
 
-echo $stream->do_query("select poster_id from evo_posts_1 where topic_id = '2'", "one");
+set_include_path(get_include_path() . PATH_SEPARATOR . $evobbDirectory);
 
-?>
+require_once $evobbDirectory . '/' . '../EVOBB/DEBUG.PHP';
 
+unset($evobbDirectory);

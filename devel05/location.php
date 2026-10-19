@@ -1,28 +1,17 @@
-<html>
-<head>
-<title>Untitled Document</title>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-</head>
-
-<body>
-
 <?php
 
-require('connect.php');
+// Shared implementation: devel/location.php
 
-$path = "$DOCUMENT_ROOT/$dirname/images/avatars/";
+$evobbDirectory = dirname(__FILE__);
 
-print "
-$PATH_TRANSLATED<br><br>
-$PHP_SELF<br><br>
-$DOCUMENT_ROOT<br><br>
-$path<br>
-";
+if (!isset($path) || $path === '' || $path === false) {
+    $path = $evobbDirectory . '/';
+}
 
+$GLOBALS['path'] = $path;
 
-?>
+set_include_path(get_include_path() . PATH_SEPARATOR . $evobbDirectory);
 
+require_once $evobbDirectory . '/' . '../devel/location.php';
 
-
-</body>
-</html>
+unset($evobbDirectory);

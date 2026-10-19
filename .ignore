@@ -1,0 +1,12 @@
+# Vendored phpMyAdmin 2.2.0 (August 2001) from http://phpmyadmin.sourceforge.net/
+STORE/mysqladmin/**
+# Vendored phpMyAdmin 2.2.0 (August 2001) from http://phpmyadmin.sourceforge.net/
+STORE/newmyadmin/**
+# Vendored phpMyAdmin 2.2.0 (August 2001) from http://phpmyadmin.sourceforge.net/
+phpmyadmin/**
+# Vendored Instant Web Mail by Jonas Koch Bentzen (2001-2002), SourceForge project 50699
+mail/**
+# Vendored ToDoList.php by Joerg Menke (jhm@gmx.net), GPL todo-list scripts
+TODO/**
+# Generated editor temp copy of devel05/05/viewtopic.htm
+devel05/05/TMPott9h4eexd.htm

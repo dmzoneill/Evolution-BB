@@ -1,21 +1,5 @@
-<html><head><title>Evolution BB</title></head>
+<?php
 
-<body>
+// Shared implementation: devel/attachments/index.php
 
-<?php 
-
-$var = uniqid(0);
-
-?>
-
-<a href="../fdisplay.php?<?php echo $var; ?>">Goto Forums</a>
-
-<script language=javascript>
-<!--
-setTimeout("document.location.href='../fdisplay.php?<?php echo $var; ?>';", 100);
-//-->
-</script>
-
-</body>
-
-</html>
+require_once dirname(__FILE__) . '/' . '../attachments/index.php';

@@ -1,8 +1,5 @@
 <?php
-                $usesmiles = 1;
 
-                $allowbbcode = 1;
+// Shared implementation: EVOBB/VARS.PHP
 
-                $allowhtml = 0;
-
-        ?>
+require_once dirname(__FILE__) . '/' . '../EVOBB/VARS.PHP';
